@@ -1,0 +1,12 @@
+NINJA SUPREMO SITE V3 — CONTATOS
+
+WhatsApp configurado: +55 51 99944-4927
+Instagram configurado: @ninja_supremo77
+
+O botão do WhatsApp abre uma conversa já com mensagem inicial.
+O botão do Instagram abre diretamente o perfil.
+
+PARA ATUALIZAR:
+1. Extraia este ZIP.
+2. Faça um novo deploy manual na Netlify usando a pasta extraída.
+3. Confira os botões WhatsApp, Instagram e Comprar Agora no celular.
