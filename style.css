@@ -15,3 +15,17 @@
 .gallery-grid .poster img{max-height:850px}
 .gallery-grid figcaption{padding:13px 16px;color:#d6b758;font-size:13px;border-top:1px solid #2d230d}
 @media(max-width:760px){.gallery-grid{grid-template-columns:1fr}.gallery-grid figure.wide{grid-column:auto}.gallery-grid img{height:auto}}
+
+.mercados{background:linear-gradient(180deg,#090909,#0d0a04)}
+.markets-intro{max-width:850px;font-size:18px}
+.market-badges{display:flex;gap:9px;flex-wrap:wrap;margin:25px 0 30px}
+.market-badges b{color:#f3bc35;background:#151107;border:1px solid #594315;border-radius:999px;padding:8px 14px;font-size:13px}
+.market-gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.market-gallery figure{margin:0;background:#101010;border:1px solid #4a3812;border-radius:16px;overflow:hidden;box-shadow:0 16px 38px #0008}
+.market-gallery .market-feature{grid-column:1/-1}
+.market-gallery img{display:block;width:100%;height:350px;object-fit:cover;background:#030303}
+.market-gallery .market-feature img{height:auto;max-height:720px;object-fit:contain}
+.market-gallery figcaption{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:15px 18px;border-top:1px solid #34280f}
+.market-gallery figcaption strong{color:#f3bc35}.market-gallery figcaption small{color:#8f8f8f;text-align:right}
+.market-note{font-size:13px;color:#777;max-width:900px;margin-top:20px}
+@media(max-width:760px){.market-gallery{grid-template-columns:1fr}.market-gallery .market-feature{grid-column:auto}.market-gallery img{height:auto}.market-gallery figcaption{display:block}.market-gallery figcaption small{display:block;text-align:left;margin-top:4px}}
