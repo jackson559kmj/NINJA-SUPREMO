@@ -1,0 +1,13 @@
+NINJA SUPREMO SITE V4 — GALERIA
+
+Esta versão adiciona as 6 imagens enviadas ao site, com galeria responsiva.
+Mantém WhatsApp, Instagram e botão de compra.
+
+PARA ATUALIZAR NO GITHUB:
+1. Extraia este ZIP.
+2. No repositório NINJA-SUPREMO, substitua index.html e estilo.css pelos novos.
+3. Envie também TODOS os arquivos da pasta assets.
+4. Faça Commit changes.
+5. O GitHub Pages atualizará automaticamente.
+
+Observação: as fotos do Strategy Tester estão identificadas como simulação/backtest.
