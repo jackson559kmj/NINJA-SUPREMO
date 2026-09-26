@@ -1,6 +1,6 @@
 // Insira aqui somente uma URL de checkout criada dentro da conta do vendedor.
 // Nunca coloque o access token ou credenciais do Mercado Pago em arquivos do site.
-const MERCADO_PAGO_CHECKOUT_URL = "";
+const MERCADO_PAGO_CHECKOUT_URL = "https://mpago.la/1uH1i5A";
 const WHATSAPP_NUMBER = "5551999444927";
 
 const buyButton = document.getElementById("comprar-mercado-pago");
