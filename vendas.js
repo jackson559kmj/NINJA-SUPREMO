@@ -18,9 +18,9 @@ if (supportButton) {
   const rawId = params.get("payment_id") || params.get("collection_id") || "";
   const orderId = /^[0-9]{1,30}$/.test(rawId) ? rawId : "";
   const message = [
-    "Olá! Comprei o Ninja Supremo V2.08 e quero solicitar o arquivo e a ativação da licença.",
+    "Olá! Comprei o Ninja Supremo V2.05 e quero solicitar o arquivo EX5, o preset e as aulas.",
     orderId ? `Identificador de pagamento informado pelo checkout: ${orderId}` : "Posso enviar o número do pedido do Mercado Pago.",
-    "Vou informar meu número de conta MT5 e o nome do servidor. Não enviarei a senha."
+    "Aguardarei o arquivo EX5, o preset e as aulas."
   ].join("\n");
   supportButton.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
